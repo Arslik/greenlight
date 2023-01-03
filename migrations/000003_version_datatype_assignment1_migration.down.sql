@@ -1,2 +1,2 @@
-ALTER TABLE movies DROP COLUMN version;
-ALTER TABLE movies ADD version int NOT NULL;
+-- ALTER TABLE movies DROP COLUMN version;
+-- ALTER TABLE movies ADD version int NOT NULL DEFAULT 1;
